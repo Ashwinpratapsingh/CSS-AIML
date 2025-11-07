@@ -1,7 +1,6 @@
 p{
     color: blueviolet;
     background-color: red;
-    border-radius: 12cm;
     text-align: center;
 }
 .p{
@@ -9,4 +8,57 @@ p{
 }
 #jk{
     font-size: 120%;
+}
+div{
+display: -webkit-inline-flex;
+    text-align: end;
+    border-radius: 20%;
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    padding: 10ps;
+    border: 10px dashed brown;
+    margin: 100px;
+}
+.p1{
+    color: red;
+}
+#box1{
+    background-color: violet;
+    border: 10px solid green;
+    padding: 10px;
+    margin: 10px;
+
+}
+#box2{
+    border: 10px double green;
+    padding: 10px;
+    margin: 10px;
+
+}
+#box3{
+    border: 10px dashed green;
+    padding: 10px;
+    margin: 10px;
+    background-color: brown;
+
+}
+#box4{
+    border: 10px dotted green;
+    padding: 10px;
+    margin: 10px;
+    background-color: lime;
+
+}
+#box5{
+    border: 10px solid;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: content-box;
+}
+h1{
+    color: purple;
+}
+p1{
+    color: red;
 }
