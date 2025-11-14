@@ -2,11 +2,22 @@ div{
     border: solid black;
 }
 
-
-
-.A{
+.box{
     display: inline-block;
-    background-color: yellowgreen;
+    margin: 2%;
+    padding: 10%;
+    border: 0cm;
+}
+
+.box1{
+    background-color: yellow;
+}
+
+.box2{
+    background-color: pink;
+}
+.box3{
+    background-color: skyblue;
 }
 
 .B{
@@ -17,4 +28,8 @@ div{
 .C{
     display:inline-block;
     background-color: skyblue;
+}
+
+.container{
+        border: solid black;
 }
