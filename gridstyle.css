@@ -5,9 +5,14 @@
     border: 3px solid black;
     color: white;
     display: grid;
-    grid-template-rows: repeat(4,1fr);
-    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,100);
+    grid-template-columns: repeat(4,100);
     grid-template-areas: "header header header header" "main main . sidebar" " footer footer footer footer";
+    gap: 10px;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 .item{
     height: 100px;
